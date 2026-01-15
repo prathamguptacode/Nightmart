@@ -38,6 +38,8 @@ model product {
   id          Int      @id @default(autoincrement())
   name        String
   description String
+  price       Int
+  tags        String[]
   userId      Int
   user        user     @relation(fields: [userId], references: [id], onDelete: Cascade)
   orders      order[]
