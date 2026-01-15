@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "tempUser" ALTER COLUMN "otp" SET DATA TYPE TEXT;
